@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Snake Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="gameTitle">Snake Game</h1>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <footer id="scoreFooter">Score: 0 | Record: 0</footer>
+    <div id="gameOverMessage">Game Over! Press any key to restart.</div>
+    <div id="leaderboardContainer">
+        <div id="leaderboard">
+            <h2>High Scores</h2>
+            <ol id="highScoresList"></ol>
+            <div id="resetButtonContainer">
+                <button id="resetButton">Reset High Scores</button>
+            </div>
+        </div>
+    </div>
+    <div id="nameInputContainer">
+        <input type="text" id="gamerName" placeholder="Enter your name">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
